@@ -39,7 +39,8 @@ riot.tag2('home-page', '<div class="container"> <div class="row"> <div class="co
                 self.cities = res.data;
                 $("#city", this.root).typeahead({
                             minLength: 1,
-                            highlight: true
+                            highlight: true,
+                            hint: false
                         },
                         {
                             name: 'shyam',

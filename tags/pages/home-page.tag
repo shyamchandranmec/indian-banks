@@ -79,7 +79,8 @@
                 self.cities = res.data;
                 $("#city", this.root).typeahead({
                             minLength: 1,
-                            highlight: true
+                            highlight: true,
+                            hint: false
                         },
                         {
                             name: 'shyam',

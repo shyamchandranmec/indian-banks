@@ -5,7 +5,7 @@ let mongoose = require("mongoose");
 
 module.exports = app => {
     let logger = app.helpers.logger;
-    let dbURI =  "mongodb://shyam:shyam@ds019633.mlab.com:19633/nmail";
+    let dbURI =  "mongodb://localhost/nmail";
     mongoose.Promise = Promise;
     
     function onConnectionError (err) {
