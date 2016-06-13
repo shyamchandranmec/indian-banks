@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body>
+<home-page></home-page>
+<script type="text/javascript" src="/bower_components/jquery/dist/jquery.js"></script>
+
+<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="/bower_components/typeahead.js/dist/typeahead.bundle.js"></script>
+<script src="/bower_components/riot/riot.js"></script>
+<script src="/bower_components/axios/dist/axios.js"></script>
+<script src="/javascripts/init.js"></script>
+
+<script src="/tags/pages/home-page.js"></script>
+<script>
+    riot.mount("home-page");
+</script>
+
+</body>
+</html>
