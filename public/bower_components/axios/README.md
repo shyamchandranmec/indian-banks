@@ -31,7 +31,7 @@ Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 8+ ✔ |
 Using cdn:
 
 ```html
-<script src="https://npmcdn.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 ```
 
 Using npm:
